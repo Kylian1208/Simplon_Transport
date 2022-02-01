@@ -1,9 +1,13 @@
+/* placement form */
+
 *::before,
 *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Partie Haut */
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,6 +24,8 @@ body{
     display: inline-block;
     margin: 15px;
 }
+
+/* Partie Centrale */
 
 .container {
     width: 500px;
@@ -78,6 +84,9 @@ body{
     cursor: pointer;
     transition: all 0.2s;
 }
+
+/* Partie basse*/
+
 footer{
     font-size: 1em;
     opacity: 0.3;
