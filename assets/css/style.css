@@ -1,0 +1,88 @@
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:linear-gradient(89deg, #d2e00f -10%, #111111);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.title{
+    padding: 0 15px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 30px 50px;
+}
+
+.form__group {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form__input {
+    font-size: 16px;
+    font-family: inherit;
+    padding: 3px 10px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 4px solid transparent;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.form__input:focus {
+    outline: none;
+    border-bottom: 4px solid #a5ee6e;
+    width: 66.6666%;
+    transition: all 0.3s;
+}
+
+.form__input:focus:invalid {
+    border-bottom: 4px solid #e94a2f;
+}
+
+.form__message,
+.form__message .message__input {
+    width: 100%;
+}
+
+.submitBtn {
+    display: block;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: #d2e00f;
+    border-radius: 30px;
+    margin: 20px auto;
+    font-size: 25px;
+    font-family: inherit;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+footer{
+    font-size: 1em;
+    opacity: 0.3;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: 2px rgba(0, 0, 0, 0.5) solid;
+}
