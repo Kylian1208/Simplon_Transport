@@ -1,0 +1,22 @@
+
+/* Div = Slogan + Photo  Hassan*/
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.centered :hover {
+    
+    color: yellow;
+  }
