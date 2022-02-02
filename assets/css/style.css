@@ -10,9 +10,9 @@
 /* Partie Haut */
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     background:linear-gradient(89deg, #d2e00f -10%, #111111);
-    height: 100vh;
+    height: 100vh   ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,10 +54,9 @@ body{
 }
 
 .form__input:focus {
-    outline: none;
     border-bottom: 4px solid #a5ee6e;
     width: 66.6666%;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 .form__input:focus:invalid {
