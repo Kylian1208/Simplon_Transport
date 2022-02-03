@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(85deg, #dacb05, #1d1d1d) center center;
+    background-color:#BCD8C1;
     padding: 20px;
     /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/
 }
@@ -22,12 +22,18 @@ body{
     display: flex;
     border-bottom: 3px #000000 solid;
 }
-
+img{
+    width: 200px;
+}
+hr{
+    border: black solid;
+}
 nav{
     width: 100%;
     position: relative;
-    top: 30px;
+    top: 20px;
     z-index: 1;
+    margin-bottom: 50px;
 }
 
 .nav-home{
@@ -205,7 +211,7 @@ li a{
 @media all and (max-width: 800px)
 {
     .nav-home{
-        margin-left: 40px;
+        margin-left: 45px;
     }
     .nav-deroulant{
         display: none;
