@@ -1,4 +1,9 @@
 
+
+*{
+  margin: 0;
+  padding: 0;
+}
 /* Div = Slogan + Photo  Hassan*/
 .container {
   position: relative;
@@ -20,3 +25,69 @@
     
     color: yellow;
   }
+
+
+  .presentation {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 5px solid yellow;
+  width: 100%;
+  margin: 20px 20px;
+  
+  
+ 
+  
+  }
+
+  .presentation img{
+    width: 500px;
+    height: 500px
+  }
+  .presentation h3{
+    
+    color:black;
+    font-size: 50PX;
+    text-align: center;
+    font-style: bold;
+    
+    
+  }
+
+
+  .presentation h3:hover{
+    
+    color:yellow;
+    font-style: bold;
+
+  }
+  .presentation p {
+    
+    text-align: left;
+    background-color: yellow;
+    font-size: 24px;
+    margin-right: 40px;
+    border-radius: 10px;
+
+  }
+
+  .presentation h4 {
+    
+    text-align: center;
+    font-size: 25px;
+
+  }
+  .presentation h4:hover {
+    
+    text-align: center;
+    font-size: 25px;
+    color: yellow;
+
+  }
+ 
+
+    
+
+   
+  
+  
+   
