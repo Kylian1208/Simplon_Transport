@@ -13,7 +13,7 @@ body {
 }
 
 /* Div = Slogan + Photo   partie 1 Hassan*/
-.container {
+.sloganphoto {
   display: flex;
   position: relative;
   text-align: center;
@@ -30,7 +30,7 @@ body {
 
 
 
-.centered {
+.slogan {
   display: flex;
   justify-content: center;
   position: absolute;
