@@ -43,7 +43,7 @@ body {
   
 }
 
-.centered :hover {
+.slogan :hover {
 
   color: red;
   border-bottom: 3px white solid;
