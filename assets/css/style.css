@@ -23,6 +23,9 @@ body{
     border-bottom: 3px #000000 solid;
 }
 img{
+    width: 50px;
+}
+.jsp img{
     width: 200px;
 }
 hr{
@@ -39,6 +42,10 @@ nav{
 .nav-home{
     font-size: 2em;
     max-width: 200px;
+}
+.nav-deroulant{
+    font-size: 2em;
+    max-width: 410px;
 }
 
 .menu-deroulant{
@@ -246,6 +253,8 @@ li a{
 /* Partie Centrale */
 
 .con {
+    margin-left: auto;
+    margin-right: auto;
     width: 500px;
     flex-direction: column;
     border-radius: 3px;
@@ -290,7 +299,7 @@ li a{
     padding: 5px 30px;
     border: none;
     outline: none;
-    background-color: #d2e00f;
+    background-color:#BCD8C1;
     border-radius: 30px;
     margin: 20px auto;
     font-size: 25px;

@@ -22,8 +22,11 @@ body{
     display: flex;
     border-bottom: 3px #000000 solid;
 }
-img{
+.jsp img{
     width: 200px;
+}
+img{
+    width: 50px;
 }
 hr{
     border: black solid;
