@@ -8,11 +8,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Div = Slogan + Photo  Hassan*/
+/* Div = Slogan + Photo   partie 1 Hassan*/
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  color:black;
   border: 2px solid red;
   margin-top: 20px;
   padding: 10px;
@@ -122,6 +122,7 @@ body {
   display: flex;
   font-size: 20px;
   width: 500px;
+  margin-top: 60px;
 
 }
 
