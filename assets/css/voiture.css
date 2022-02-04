@@ -1,16 +1,25 @@
 body {
-    background-color:#BCD8C1;
-    color: black;
-    opacity: 1;
+
+    background: url("../img/fond/voitures.png") no-repeat;
+    background-size: cover;
 }
 
 h1 {
     text-align: center;
+    text-shadow: 8px 8px 3px #aaa;
+    border-radius: 5px;
+    width: 100%;
+
 }
 
 h2 {
     text-align: center;
     width: auto;
+    background-color: #ffffff;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-bottom: 30px;
 }
 
 img {
@@ -21,19 +30,19 @@ a {
     text-decoration: none;
 }
 
-.center{
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-.ligne1{
-   /* border: 1px solid rgb(231, 0, 0);*/
+.ligne1 {
+    /* border: 1px solid rgb(231, 0, 0);*/
     margin-top: 15px;
     margin-bottom: 50px;
     padding-bottom: 90px;
     min-height: 120px;
-    width: auto;
+    width: 100%;
 }
 
 .cadre-taxi {
@@ -118,7 +127,6 @@ a {
     margin-bottom: -50px;
     margin-right: 15px;
     float: right;
-
 }
 
 .voiture-1 {
@@ -128,13 +136,13 @@ a {
     margin-top: 25px;
     margin-bottom: 10px;
     padding-left: 50px;
+    padding-bottom: 20px;
     float: left;
     width: 40%;
-    height: 200px;
-    border-top-color: white;
-    border-left-color: white;
-    border-right-color: black;
-    border-bottom-color: black;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: white;
+    border-bottom-color: white;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
     /*border-top-color: #e7f010;
     border-left-color: #e7f010;
@@ -142,24 +150,28 @@ a {
     border-bottom-color: black;*/
     border-radius: 100px / 20px;
     text-align: center;
+
 }
 
 .image-voiture1 {
-    width: 150px;
-    height: 79px;
+    width: 35%;
+    height: 35%;
     margin-top: -18px;
     margin-left: -25px;
     float: left;
 }
 
 .description-voiture1 {
-    height: 120px;
     text-align: left;
-    width: 300px;
-    float :right;
-    margin-right : 40px;
-    margin-top:-18px;
+    width: 60%;
+    height: 50%;
+    float: right;
+    margin-right: 10px;
+    margin-top: -18px;
     padding-left: 15px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    border-radius: 5px;
 }
 
 .voiture-2 {
@@ -173,34 +185,37 @@ a {
     float: right;
     width: 40%;
     border-top-color: black;
-    border-left-color: black;
-    border-right-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: black;
     border-bottom-color: #ffffff;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
     /*border-top-color: black;
     border-left-color: black;
     border-right-color: #e7f010;
-    border-bottom-color: #e7f010;*/    
+    border-bottom-color: #e7f010;*/
     border-radius: 100px / 20px;
     text-align: center;
 }
 
-.image-voiture2{
-    width: 150px;
-    height: 79px;
+.image-voiture2 {
+    width: 35%;
+    height: 35%;
     margin-top: -18px;
     margin-right: 25px;
     float: right;
 }
 
-.description-voiture2{
-    height: 120px;
+.description-voiture2 {
     text-align: left;
-    width: 300px;
-    float :left;
-    margin-left : -25px;
+    width: 60%;
+    height: 50%;
+    float: left;
+    margin-left: -40px;
     padding-left: 15px;
     margin-top: -18px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    border-radius: 5px;
 }
 
 .voiture-3 {
@@ -213,9 +228,9 @@ a {
     padding-bottom: 15px;
     float: left;
     width: 40%;
-    border-top-color: white;
-    border-left-color: white;
-    border-right-color: black;
+    border-top-color: #ffffff;
+    border-left-color: black;
+    border-right-color: #ffffff;
     border-bottom-color: black;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
     border-radius: 100px / 20px;
@@ -223,75 +238,79 @@ a {
 }
 
 .image-voiture3 {
-    width: 150px;
-    height: 79px;
+    width: 35%;
+    height: 35%;
     margin-top: -18px;
     margin-left: -25px;
     float: left;
 }
 
 .description-voiture3 {
-    height: 120px;
     text-align: left;
-    width: 300px;
-    float :right;
-    margin-right : 40px;
-    margin-top:-18px;
+    width: 62%;
+    height: 50%;
+    float: right;
+    margin-right: 10px;
+    margin-top: -18px;
     padding-left: 15px;
+    padding-bottom: 25pX;
+    background-color: #ffffff;
+    opacity: 0.7;
+    border-radius: 5px;
 }
 
 .voiture-4 {
-    border: 3px solid red;
+    border: 3px solid white;
     margin-left: 30px;
     margin-right: 10px;
     margin-top: 25px;
     margin-bottom: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 25px;
     padding-left: 50px;
     float: right;
     width: 40%;
     border-top-color: black;
-    border-left-color: black;
-    border-right-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: black;
     border-bottom-color: #ffffff;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    /*border-top-color: black;
+    border-left-color: black;
+    border-right-color: #e7f010;
+    border-bottom-color: #e7f010;*/
     border-radius: 100px / 20px;
     text-align: center;
 }
 
-.image-voiture4{
-    width: 150px;
-    height: 79px;
+.image-voiture4 {
+    width: 35%;
+    height: 35%;
     margin-top: -18px;
     margin-right: 25px;
     float: right;
 }
 
-.description-voiture4{
-    height: 120px;
+.description-voiture4 {
     text-align: left;
-    width: 300px;
-    float :left;
-    margin-left : -25px;
+    width: 60%;
+    height: auto;
+    float: left;
+    margin-left: -35px;
     padding-left: 15px;
     margin-top: -18px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    border-radius: 5px;
 }
 
-.phraseacrroche{
+.phraseacrroche {
     text-align: center;
     font-size: 35px;
 }
 
-.cadreconnexion
-{
-    border : 2px solid red;
+.cadreconnexion {
+    border: 2px solid red;
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.4);
     text-align: center;
 
-}
-
-input { 
-border-radius: 10px; 
-width: 250px;
-height: 25px;
 }
