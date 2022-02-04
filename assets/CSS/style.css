@@ -98,7 +98,6 @@ body {
 .presentationsimplon {
 
   display: flex;
-  margin-left: 40px;
   border: 2px solid red;
   margin-top: 20px;
   padding: 10px;
@@ -144,12 +143,15 @@ body {
   font-size: 40px;
   background-color: #BCD8C1;
   flex-direction: column;
+  
+  margin-top: 60px;
 }
 .branche h3  {
-  display: flex;
+  margin-right: 40px;
   font-size: 40px;
   background-color: #BCD8C1;
   flex-direction: column;
+ 
 }
 .branche h3:hover  {
   color: red;
@@ -157,68 +159,42 @@ body {
 .div1 {
   display: flex;
   font-size: 30px;
-  padding: 20px;
-  margin-right: 60px;
-  background-color: yellow;
-  margin-top: 20px;
+  margin-left: 20px;
+  padding: 5px;
+  
+  
   
 }
 .div2 {
   display: flex;
   font-size: 30px;
-  padding: 20px;
-  margin-right: 60px;
-  background-color:grey;
-  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  
   
 }
 .div3 {
   display: flex;
   font-size: 30px;
-  padding: 20px;
-  margin-right: 60px;
-  background-color:green;
-  margin-top:20px;
+  margin-left: 20px;
+  padding: 5px;
+  
   
 }
 .div4 {
   display: flex;
   font-size: 30px;
-  padding: 20px;
-  margin-right: 60px;
-  background-color:blueviolet;
-  margin-top:20px;
+  margin-left: 20px;
+  padding: 5px; 
   
 }
 .div5 {
   display: flex;
   font-size: 30px;
-  padding: 20px;
-  margin-right: 60px;
-  background-color:red;
-  margin-top:20px;
+  margin-left: 20px;
+  padding: 5px;
   
 }
 
 
 
-@media only screen and (min-width: 768px) {
-  .container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .presentation {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-  }
-  .presentationsimplon {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-  }
-  .branche {
-      grid-template-columns: repeat(4, 1fr);
-  }
-}
