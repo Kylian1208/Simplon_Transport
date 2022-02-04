@@ -14,6 +14,7 @@ body {
 
 /* Div = Slogan + Photo   partie 1 Hassan*/
 .container {
+  display: flex;
   position: relative;
   text-align: center;
   color:white;
@@ -21,28 +22,38 @@ body {
   margin-top: 20px;
   padding: 10px;
   margin-left: 30px;
+  display: grid;
+  
+  
   
 }
 
 
+
 .centered {
+  display: flex;
+  justify-content: center;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  
 }
 
 .centered :hover {
 
   color: red;
+  border-bottom: 3px white solid;
 }
 
 /* partie 2 Hassan*/
 .presentation {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin-left: 30px;
   justify-content: space-between;
   margin-top: 20px;
@@ -70,6 +81,7 @@ body {
 .textepre p:hover {
   display: flex;
   color: white;
+  
 
 
 }
@@ -86,6 +98,9 @@ body {
   text-align: center;
   font-size: 25px;
   color: red;
+  border-bottom: 2px white solid;
+  
+
 
 }
 
@@ -94,6 +109,7 @@ body {
 .presentationsimplon {
 
   display: flex;
+  justify-content: center;
   border: 2px solid red;
   margin-top: 20px;
   padding: 10px;
@@ -115,6 +131,8 @@ body {
 
 .titre2 h1:hover {
   color: red;
+  border-bottom: 2px white solid;
+
 
 }
 
@@ -136,6 +154,7 @@ body {
 
 .branche   {
   display: flex;
+  justify-content: center;
   font-size: 40px;
   background-color: #BCD8C1;
   flex-direction: column;
@@ -151,6 +170,7 @@ body {
 }
 .branche h3:hover  {
   color: red;
+  border-bottom: 2px white solid;
 }
 .div1 {
   display: flex;
