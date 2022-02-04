@@ -1,19 +1,22 @@
-
-
-*{
+* {
   margin: 0;
   padding: 0;
-  background-color:#BCD8C1;
+  background-color: #BCD8C1;
 }
 
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Div = Slogan + Photo  Hassan*/
 .container {
   position: relative;
   text-align: center;
   color: white;
+  border: 2px solid red;
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 30px;
 }
 
 
@@ -27,131 +30,162 @@ body{
 }
 
 .centered :hover {
-    
-    color: red;
-  }
 
-
-  .presentation {
-  column-count: 2;
-  column-gap: 40px;
-  column-rule: 3px solid yellow;
-  width: 100%;
-  margin: 20px 20px;
-  
-  }
-
-  .presentation img{
-    width: 500px;
-    height: 500px
-  }
-  .presentation h3{
-    
-    color:black;
-    font-size: 50PX;
-    text-align: center;
-    font-style: bold;
-    background-color:#BCD8C1;
-    width: 500px;
-   
-    
-  }
-
-
-  .presentation h3:hover{
-    
-    color:red;
-    font-style: bold;
-
-  }
-  .presentation p {
-    
-    text-align: left;
-    background-color:#BCD8C1;
-    font-size: 24px;
-    margin-right: 40px;
-    border-radius: 10px;
-
-  }
-
-  .presentation h4 {
-    
-    text-align: center;
-    font-size: 25px;
-
-  }
-  .presentation h4:hover {
-    
-    text-align: center;
-    font-size: 25px;
-    color: red;
-
-  }
-
-  .simplon3 {
-    
-    display: flex;
-    margin-left: 40px;
-    border: 2px solid yellow; 
-  
-   
-    
-    }
-
-    .titre h1 {
-       display: flex;
-       font-size: 50px;
-       font-style: bold;
-       padding: 20px;
-       background-color:#BCD8C1;
-       
-    }
-    .titre h1:hover {
-      color: red;
-      
-   }
-   .texte{
-     display: flex;
-     font-size: 20px;
-     border: 1px solid yellow;
-     width: 400px;
-     margin-top: 100px;
-   }
-   .branche h3 {
-    display: flex;
-    font-size: 50px;
-    padding: 20px;
-    background-color:#BCD8C1;
- }
- .branche h3:hover {
- color: red;
+  color: red;
 }
 
- .branche h5 {
+/* partie 2 Hassan*/
+.presentation {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid red;
+
+
+}
+
+.presentation img {
+  width: 200px;
+  height: 200px
+}
+
+.textepre p {
+  display: flex;
+  color: black;
+  font-size: 20PX;
+  background-color: #BCD8C1;
+  margin-top: 80px;
+  margin-left: 40px;
+
+}
+
+.textepre p:hover {
+  display: flex;
+  color: white;
+
+
+}
+
+.textepre h4 {
+
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.textepre h4:hover {
+
+  text-align: center;
+  font-size: 25px;
+  color: red;
+
+}
+
+/* partie 3 Hassan*/
+
+.presentationsimplon {
+
+  display: flex;
+  margin-left: 40px;
+  border: 2px solid red;
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 30px;
+  justify-content: space-between;
+
+
+
+}
+
+.titre2 h1 {
+  display: flex;
+  font-size: 50px;
+  font-style: bold;
+  padding: 20px;
+  background-color: #BCD8C1;
+
+}
+
+.titre2 h1:hover {
+  color: red;
+
+}
+
+
+.texte2 {
+  display: flex;
+  font-size: 20px;
+  width: 500px;
+
+}
+
+.texte2:hover {
+  color: white;
+
+}
+
+
+
+.branche   {
+  display: flex;
+  font-size: 40px;
+  background-color: #BCD8C1;
+  flex-direction: column;
+}
+.branche h3  {
+  display: flex;
+  font-size: 40px;
+  background-color: #BCD8C1;
+  flex-direction: column;
+}
+.branche h3:hover  {
+  color: red;
+}
+.div1 {
   display: flex;
   font-size: 30px;
   padding: 20px;
-  margin-left: 20px;
-   
-}
-.branche h5:hover {
- color: red;
-   
-}
-
-.branche h5:hover {
-  
-  color: red;
+  margin-right: 60px;
+  background-color: yellow;
+  margin-top: 20px;
   
 }
- 
-
-
- 
-
-    
-
-   
+.div2 {
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  margin-right: 60px;
+  background-color:grey;
+  margin-top: 20px;
   
+}
+.div3 {
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  margin-right: 60px;
+  background-color:green;
+  margin-top:20px;
   
-   
+}
+.div4 {
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  margin-right: 60px;
+  background-color:blueviolet;
+  margin-top:20px;
+  
+}
+.div5 {
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  margin-right: 60px;
+  background-color:red;
+  margin-top:20px;
+  
+}
