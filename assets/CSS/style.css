@@ -22,29 +22,19 @@ body {
   margin-top: 20px;
   padding: 10px;
   margin-left: 30px;
-  display: grid;
-  
-  
-  
 }
-
-
 
 .slogan {
   display: flex;
-  justify-content: center;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
-  display: grid;
-  
 }
 
 .slogan :hover {
-
   color: red;
   border-bottom: 3px white solid;
 }
@@ -53,14 +43,10 @@ body {
 .presentation {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   margin-left: 30px;
-  justify-content: space-between;
   margin-top: 20px;
   padding: 10px;
   border: 2px solid red;
-
-
 }
 
 .presentation img {
@@ -69,7 +55,6 @@ body {
 }
 
 .textepre p {
-  display: flex;
   color: black;
   font-size: 20PX;
   background-color: #BCD8C1;
@@ -79,70 +64,49 @@ body {
 }
 
 .textepre p:hover {
-  display: flex;
   color: white;
-  
-
 
 }
 
 .textepre h4 {
-
   text-align: center;
   font-size: 15px;
 
 }
 
 .textepre h4:hover {
-
   text-align: center;
   font-size: 25px;
   color: red;
   border-bottom: 2px white solid;
-  
-
-
 }
 
 /* partie 3 Hassan*/
 
 .presentationsimplon {
-
   display: flex;
-  justify-content: center;
   border: 2px solid red;
   margin-top: 20px;
   padding: 10px;
   margin-left: 30px;
-  justify-content: space-between;
-
-
-
 }
 
 .titre2 h1 {
-  display: flex;
   font-size: 50px;
   font-style: bold;
   padding: 20px;
   background-color: #BCD8C1;
-
 }
 
 .titre2 h1:hover {
   color: red;
   border-bottom: 2px white solid;
-
-
 }
 
-
 .texte2 {
-  display: flex;
   font-size: 20px;
   width: 500px;
   margin-top: 60px;
-
 }
 
 .texte2:hover {
@@ -150,22 +114,16 @@ body {
 
 }
 
-
-
 .branche   {
-  display: flex;
-  justify-content: center;
   font-size: 40px;
   background-color: #BCD8C1;
   flex-direction: column;
-  
   margin-top: 60px;
 }
 .branche h3  {
-  margin-right: 40px;
   font-size: 40px;
   background-color: #BCD8C1;
-  flex-direction: column;
+  
  
 }
 .branche h3:hover  {
@@ -173,39 +131,27 @@ body {
   border-bottom: 2px white solid;
 }
 .div1 {
-  display: flex;
   font-size: 30px;
   margin-left: 20px;
   padding: 5px;
-  
-  
-  
+
 }
 .div2 {
-  display: flex;
   font-size: 30px;
   margin-left: 20px;
   padding: 10px;
-  
-  
 }
 .div3 {
-  display: flex;
   font-size: 30px;
   margin-left: 20px;
   padding: 5px;
-  
-  
 }
 .div4 {
-  display: flex;
   font-size: 30px;
   margin-left: 20px;
   padding: 5px; 
-  
 }
 .div5 {
-  display: flex;
   font-size: 30px;
   margin-left: 20px;
   padding: 5px;
@@ -213,5 +159,34 @@ body {
 }
 
 
+@media only screen and (min-width: 300px) {
+  .sloganphoto {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
+  }
+
+  @media only screen and (min-width: 300px) {
+  .slogan {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+
+@media only screen and (min-width: 300px) {
+  .presentation {
+      display: grid;
+      grid-template-columns: (1, 1fr);
+  }
+  }
+  @media only screen and (min-width:300px) {
+    
+  .presentationsimplon {
+      display:flex;
+      grid-template-columns:repeat(1, 1fr);
+  }
+ 
+ 
+}
 
 
