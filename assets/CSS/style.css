@@ -9,6 +9,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #BCD8C1;
+  margin: 0;
 }
 
 /* Div = Slogan + Photo   partie 1 Hassan*/
@@ -197,4 +198,27 @@ body {
   background-color:red;
   margin-top:20px;
   
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .presentation {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .presentationsimplon {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .branche {
+      grid-template-columns: repeat(4, 1fr);
+  }
 }
