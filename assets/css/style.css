@@ -1,7 +1,11 @@
+html{
+    height: 100%;
+}
 body{
     font-family: Verdana;
     background-color:#BCD8C1;
     padding: 20px;
+    min-height: 100%;
 }
 
 .corps{
@@ -309,15 +313,17 @@ li a{
     cursor: pointer;
     transition: all 0.2s;
 }
-
 /* Partie basse*/   
 
 footer{
-    display:flex;   
-    font-size: 1em;
     opacity: 0.3;
-    align-content: center;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
     margin-top: 10px;
     padding-top: 20px;
-    border-top: 2px rgba(0, 0, 0, 0.5) solid;
+    vertical-align: top;
+    /*position:fixed;*/
+    bottom: 0;
+    border-top: #000000 solid;
 }
