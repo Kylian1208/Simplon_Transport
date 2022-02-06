@@ -1,0 +1,297 @@
+body {
+    background-color:#BCD8C1;
+    color: black;
+    opacity: 1;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    width: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.ligne1{
+   /* border: 1px solid rgb(231, 0, 0);*/
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 90px;
+    min-height: 120px;
+    width: auto;
+}
+
+.cadre-taxi {
+    border: 3px solid rgb(231, 0, 0);
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    float: left;
+    width: 45%;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: black;
+    border-bottom-color: black;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    border-radius: 100px / 20px;
+}
+
+
+
+.cadre-train {
+    border: 3px solid rgb(231, 0, 0);
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    float: left;
+    width: 45%;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: black;
+    border-bottom-color: black;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    border-radius: 100px / 20px;
+}
+
+.image-gauche {
+    z-index: 2;
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: -80px;
+
+}
+
+.cadre-avion {
+    border: 3px solid rgb(111, 0, 238);
+    margin-top: 25px;
+    margin-right: 30px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    float: right;
+    width: 45%;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-radius: 100px / 20px;
+}
+
+.cadre-voiture {
+    border: 3px solid rgb(111, 0, 238);
+    margin-top: 25px;
+    margin-right: 30px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    float: right;
+    width: 45%;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-radius: 100px / 20px;
+}
+
+.image-droite {
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: -50px;
+    margin-right: 15px;
+    float: right;
+
+}
+
+.voiture-1 {
+    border: 3px solid black;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    float: left;
+    width: 40%;
+    height: 200px;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: black;
+    border-bottom-color: black;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    /*border-top-color: #e7f010;
+    border-left-color: #e7f010;
+    border-right-color: black;
+    border-bottom-color: black;*/
+    border-radius: 100px / 20px;
+    text-align: center;
+}
+
+.image-voiture1 {
+    width: 150px;
+    height: 79px;
+    margin-top: -18px;
+    margin-left: -25px;
+    float: left;
+}
+
+.description-voiture1 {
+    height: 120px;
+    text-align: left;
+    width: 300px;
+    float :right;
+    margin-right : 40px;
+    margin-top:-18px;
+    padding-left: 15px;
+}
+
+.voiture-2 {
+    border: 3px solid white;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    float: right;
+    width: 40%;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    /*border-top-color: black;
+    border-left-color: black;
+    border-right-color: #e7f010;
+    border-bottom-color: #e7f010;*/    
+    border-radius: 100px / 20px;
+    text-align: center;
+}
+
+.image-voiture2{
+    width: 150px;
+    height: 79px;
+    margin-top: -18px;
+    margin-right: 25px;
+    float: right;
+}
+
+.description-voiture2{
+    height: 120px;
+    text-align: left;
+    width: 300px;
+    float :left;
+    margin-left : -25px;
+    padding-left: 15px;
+    margin-top: -18px;
+}
+
+.voiture-3 {
+    border: 3px solid red;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    float: left;
+    width: 40%;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: black;
+    border-bottom-color: black;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    border-radius: 100px / 20px;
+    text-align: center;
+}
+
+.image-voiture3 {
+    width: 150px;
+    height: 79px;
+    margin-top: -18px;
+    margin-left: -25px;
+    float: left;
+}
+
+.description-voiture3 {
+    height: 120px;
+    text-align: left;
+    width: 300px;
+    float :right;
+    margin-right : 40px;
+    margin-top:-18px;
+    padding-left: 15px;
+}
+
+.voiture-4 {
+    border: 3px solid red;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    float: right;
+    width: 40%;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+    border-radius: 100px / 20px;
+    text-align: center;
+}
+
+.image-voiture4{
+    width: 150px;
+    height: 79px;
+    margin-top: -18px;
+    margin-right: 25px;
+    float: right;
+}
+
+.description-voiture4{
+    height: 120px;
+    text-align: left;
+    width: 300px;
+    float :left;
+    margin-left : -25px;
+    padding-left: 15px;
+    margin-top: -18px;
+}
+
+.phraseacrroche{
+    text-align: center;
+    font-size: 35px;
+}
+
+.cadreconnexion
+{
+    border : 2px solid red;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.4);
+    text-align: center;
+
+}
+
+input { 
+border-radius: 10px; 
+width: 250px;
+height: 25px;
+}
