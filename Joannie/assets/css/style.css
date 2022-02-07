@@ -512,3 +512,15 @@ border-radius: 10px;
 width: 250px;
 height: 25px;
 }
+footer{
+    opacity: 0.3;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    vertical-align: top;
+    /*position:fixed;*/
+    bottom: 0;
+    border-top: #000000 solid;
+}
